@@ -12,7 +12,18 @@ public class Mobile {
     public void makeAcall(String input){
         System.out.println("Message: "+input);
     }
-
+    public String getName(){
+        return name;
+    }
+    public String getColor(){
+        return color;
+    }
+    public String getBrand(){
+        return brand;
+    }
+    public void getMobileInfo(){
+        System.out.println("name :"+getName()+" color: "+getColor()+" brand: "+getBrand());
+    }
 
 
 }

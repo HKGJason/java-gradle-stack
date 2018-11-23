@@ -12,7 +12,8 @@ public class App {
         android1.makeAcall("Android Hello");
         Person p1 = new Person(iphone1, "APerson");
 
-
+        iphone1.getMobileInfo();
+        android1.getMobileInfo();
         p1.makeAcall("Hi");
         p1.setMobile(android1);
         p1.makeAcall("changedAnd");
